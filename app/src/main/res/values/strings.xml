@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="action_settings">Settings</string>
+    <string name="convert_from_text">Convert From:</string>
+    <string name="default_teaspoon_value">1.0 teaspoon</string>
+    <string name="default_tbs_text_view">.3333 tbs</string>
+    <string name="default_cup_text_view">.0208 cup</string>
+    <string name="default_oz_text_view">.1666 oz</string>
+    <string name="default_kg_text_view">.0057 kg</string>
+    <string name="default_quart_text_view">.0052 quart</string>
+    <string name="default_gallon_text_view">.0013 gallon</string>
+    <string name="default_pound_text_view">.0125 pound</string>
+    <string name="default_mL_text_view">4.9289 mL</string>
+    <string name="default_liter_text_view">.0049 liter</string>
+    <string name="default_mg_text_view">5687.5000 mg</string>
+    <string name="default_pint_text_view">.0104 pint</string>
+</resources>

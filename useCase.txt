@@ -1,0 +1,40 @@
+SIMPLE ACTIONS
+
+1. The user enters a number they want converted into an EditText
+2. They change the spinner to the unit of measure to convert from
+3. The other conversion types all show their measuremnet version of that unit amount
+
+1. Create the layout in activity_main.xml
+	a. Use relative layout for a label "Conver From", EditText and Spinner
+	b. Use Grid Layout for bottom that contains 2 columns and 6 rows
+	c. Make gridLayout a blue color
+	d. Use the units teaspoons, tablespoons, cup, ounces, pints, quarts, gallons, pounds, milliliter, liter, milligram, kilograms
+	
+
+2. Setup MainActivity
+	a.Initialize Spinner, EditText, and all TextViews
+	b. In onCreate
+		I. Add items to Spinner
+		i. create ArrayAdapter using String array resource (Make strings.xml)
+		ii. Define layout to use with Spinner
+		iii. Connect Adapter to Spinner
+		II. Add Listener to Spinner
+		i. Use setOnItemSelectedListener for Spinner
+		ii. NOTE: Maybe check of I'll use base class for unit conversion (everything becomes a teaspoon, then converted to other measurement)
+		III. Get val from EditTxt
+		IV. Initialize TextViews
+	c. End onCreate-----------------
+3. Define a Quantity Class ------------
+a. Quantity class contains a value and Unit enum
+b. Define an enum for each unit type
+c. Get the conversion for each unit type from teasponn which is the base unit
+d. Receive the nnumber of teaspoons for starting unit
+e. convert to base unit teaspoons, divide by base unit
+f. convert to another unit to teaspoon, mult by base
+g. constructor to receive
+h. create toString that prints val & unit type
+
+4. Finish MainActivity
+a.Item changed in the Spinner
+I. Check if I'm converting from teaspoons?
+i. if I am check i'm updating tsp or not
